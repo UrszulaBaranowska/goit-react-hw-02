@@ -1,7 +1,7 @@
 import React from "react";
 
 const Description = () => (
-  <div>
+  <div class="description">
     <h1>Sip Happens Café</h1>
     <p>
       Please leave your feedback about our service by selecting one of the

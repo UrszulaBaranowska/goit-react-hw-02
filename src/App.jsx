@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./App.css";
 import Description from "./components/Description/Description";
 import Feedback from "./components/Feedback/Feedback";
 import Options from "./components/Options/Options";
@@ -41,7 +42,7 @@ const App = () => {
     : 0;
 
   return (
-    <div>
+    <div className="app-container">
       <Description />
       <Options
         updateFeedback={updateFeedback}

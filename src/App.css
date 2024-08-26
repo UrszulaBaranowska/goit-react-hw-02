@@ -1,6 +1,28 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
   text-align: center;
+  width: 800px;
+  height: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #4a605d;
+  background-color: #f9f9f9;
+}
+
+.app-container h1 {
+  color: #4b2e2a;
+}
+
+.app-container p {
+  font-size: 24px;
 }
